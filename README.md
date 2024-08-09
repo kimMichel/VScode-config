@@ -5,13 +5,13 @@
 ```
 {
   "workbench.colorTheme": "Bearded Theme Anthracite",
-  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
+  "editor.fontLigatures": true,
   "workbench.startupEditor": "newUntitledFile",
   "editor.renderLineHighlight": "gutter",
-  "editor.fontLigatures": true,
   "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
   "editor.semanticHighlighting.enabled": false,
@@ -19,33 +19,23 @@
   "editor.minimap.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   // "editor.scrollbar.vertical": "hidden",
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "bearded-icons",
+  "prisma.showPrismaDataPlatformNotification": false,
   "editor.formatOnSave": true,
-  "[ruby]": {
-    // or [erb] / [gemfile]
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "misogi.ruby-rubocop"
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "eslint.validate": [
+    "typescript"
+  ],
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
   },
-  "[erb]": {
-    "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
-    "editor.formatOnSave": true
+  "breadcrumbs.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "files.associations": {
-    "*.html.erb": "erb"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "explorer.confirmDelete": false
+  "symbols.hidesExplorerArrows": false
 }
 
 ```
@@ -53,13 +43,13 @@
 ### Extensions
 
 ```
-Bearded Icons
+Symbols
 Bearded Theme
 Docker
-endwise
 ESLint
 Prisma
-Prettier
 json
+GitLens
+ErrorLens
 
 ```
